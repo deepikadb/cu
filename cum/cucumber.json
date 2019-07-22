@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-22T10:19:00.958Z",
+        "line": 3,
+        "name": "Signup",
+        "description": "",
+        "id": "test-me-app;signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9652152048,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I type the url and homepage is displayed",
+            "match": {
+              "location": "register.i_type_the_url_and_homepage_is_displayed()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148929563,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click the signup link",
+            "match": {
+              "location": "register.i_click_the_signup_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d75.0.3770.142)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:48\u0027\nSystem info: host: \u0027DESKTOP-M3EMENL\u0027, ip: \u0027192.168.50.11\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\\Users\\test\\AppData\\Local...}, goog:chromeOptions: {debuggerAddress: localhost:60237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 02b9eed7a9d0b894cbfd91aa9689b312\n*** Element info: {Using\u003did, value\u003duserName}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat cas.register.i_enter_username(register.java:43)\r\n\tat ✽.I enter username(classpath:cas/case1.feature:6)\r\n",
+              "duration": 4044569516,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "I enter username",
+            "match": {
+              "location": "register.i_enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50323,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I enter firstname",
+            "match": {
+              "location": "register.i_enter_firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27479,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I enter lastname",
+            "match": {
+              "location": "register.i_enter_lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42046,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I enter password and confirm password",
+            "match": {
+              "location": "register.i_enter_password_and_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61248,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I enter gender",
+            "match": {
+              "location": "register.i_enter_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22182,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I enter email mobile no and DOB",
+            "match": {
+              "location": "register.i_enter_email_mobile_no_and_DOB()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23175,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I enter Address",
+            "match": {
+              "location": "register.i_enter_Address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23506,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "I enter security question and answer",
+            "match": {
+              "location": "register.i_enter_security_question_and_answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68532,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click the register link",
+            "match": {
+              "location": "register.i_click_the_register_link()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test Me App",
+    "description": "",
+    "id": "test-me-app",
+    "keyword": "Feature",
+    "uri": "classpath:cas/case1.feature",
+    "tags": []
+  }
+]
